@@ -1,0 +1,44 @@
+{
+  "name": "delete",
+  "version": 33,
+  "source-key": {
+    "type": "figma",
+    "file": "Gxv7nDRj32TMUmEWXic1JD",
+    "node": "1:526",
+    "version": "6771306650",
+    "component-id": "b4decf4718c700be32c99539331de1f1cc2789e0"
+  },
+  "default": "delete",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      }
+    ],
+    "modes": {
+      "delete": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": false,
+            "clip-content": false
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "delete",
+      "size": {
+        "width": 32.0,
+        "height": 32.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

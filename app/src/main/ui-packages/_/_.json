@@ -1,0 +1,44 @@
+{
+  "name": "_",
+  "version": 33,
+  "source-key": {
+    "type": "figma",
+    "file": "Gxv7nDRj32TMUmEWXic1JD",
+    "node": "16:395",
+    "version": "6771306650",
+    "component-id": "6c8e1efe222bfff9b2c1b60c2d9557e06fb68cc2"
+  },
+  "default": "+/-",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      }
+    ],
+    "modes": {
+      "+/-": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": false,
+            "clip-content": false
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "+/-",
+      "size": {
+        "width": 32.0,
+        "height": 32.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

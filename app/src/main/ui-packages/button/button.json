@@ -1,0 +1,269 @@
+{
+  "name": "button",
+  "version": 33,
+  "source-key": {
+    "type": "figma",
+    "file": "Gxv7nDRj32TMUmEWXic1JD",
+    "node": "1:19",
+    "version": "6771306650",
+    "component-id": "e31cd3ee6a8f916c1d70e947a5c63c20aa61e8c7"
+  },
+  "default": "Hemphasis=Low",
+  "documentation": "Botões para calculadora",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "adin_component",
+        "id": "👀 Icon",
+        "key": "delete"
+      },
+      {
+        "type": "text",
+        "id": "Text"
+      }
+    ],
+    "modes": {
+      "Hemphasis=Low": {
+        "rules": [
+          {
+            "id": "top_level",
+            "border-radius": 24.0,
+            "is-structured": false,
+            "children": [
+              "👀 Icon",
+              "Text"
+            ],
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 229.0909090909091,
+              "saturation": 0.19642857142857137,
+              "value": 0.2196078431372549
+            }
+          },
+          {
+            "id": "👀 Icon",
+            "presence": false,
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 0.0
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": 0.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 32.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 32.0
+              }
+            }
+          },
+          {
+            "id": "Text",
+            "margin": 12.0,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 1.0
+            },
+            "text-content": "1",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align-vertical": "center",
+            "text-size": 32.0,
+            "line-height": 1.25,
+            "typeface": "Work Sans"
+          }
+        ]
+      },
+      "Hemphasis=Medium": {
+        "rules": [
+          {
+            "id": "top_level",
+            "border-radius": 24.0,
+            "is-structured": false,
+            "children": [
+              "👀 Icon",
+              "Text"
+            ],
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 236.47058823529414,
+              "saturation": 0.17894736842105258,
+              "value": 0.37254901960784315
+            }
+          },
+          {
+            "id": "👀 Icon",
+            "presence": false,
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 0.0
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": 0.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 32.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 32.0
+              }
+            }
+          },
+          {
+            "id": "Text",
+            "margin": 12.0,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 1.0
+            },
+            "text-content": "1",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align-vertical": "center",
+            "text-size": 32.0,
+            "line-height": 1.25,
+            "typeface": "Work Sans"
+          }
+        ]
+      },
+      "Hemphasis=High": {
+        "rules": [
+          {
+            "id": "top_level",
+            "border-radius": 24.0,
+            "is-structured": false,
+            "children": [
+              "👀 Icon",
+              "Text"
+            ],
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 233.5593220338983,
+              "saturation": 0.7023809523809523,
+              "value": 0.9882352941176471
+            }
+          },
+          {
+            "id": "👀 Icon",
+            "presence": false,
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 0.0
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": 0.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 32.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 32.0
+              }
+            }
+          },
+          {
+            "id": "Text",
+            "margin": 12.0,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 1.0
+            },
+            "text-content": "1",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align-vertical": "center",
+            "text-size": 32.0,
+            "line-height": 1.25,
+            "typeface": "Work Sans"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "Hemphasis=Low",
+      "size": {
+        "width": 72.0,
+        "height": 72.0
+      }
+    },
+    {
+      "design": "Hemphasis=Medium",
+      "size": {
+        "width": 72.0,
+        "height": 72.0
+      }
+    },
+    {
+      "design": "Hemphasis=High",
+      "size": {
+        "width": 72.0,
+        "height": 72.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}
