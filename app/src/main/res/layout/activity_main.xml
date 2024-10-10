@@ -12,14 +12,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="101dp"
-        android:text="Insira os Números"
+        android:text="@string/text_label1"
         android:textSize="16sp"
         app:layout_constraintBottom_toTopOf="@+id/textInputEditText"
         app:layout_constraintEnd_toStartOf="@+id/button3"
         app:layout_constraintStart_toEndOf="@+id/button"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        tools:text="Insira os Números" />
+        tools:text="@string/text_label1" />
 
     <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/textInputEditText"
@@ -28,7 +28,7 @@
         android:layout_marginStart="40dp"
         android:layout_marginTop="130dp"
         android:layout_marginBottom="556dp"
-        android:hint="Number 1"
+        android:hint="@string/text_field_label1"
         android:inputType="number"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/textView"
@@ -42,7 +42,7 @@
         android:layout_marginTop="130dp"
         android:layout_marginEnd="40dp"
         android:layout_marginBottom="556dp"
-        android:hint="Number 2"
+        android:hint="@string/text_field_label2"
         android:inputType="number"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -57,14 +57,14 @@
         android:layout_marginTop="80dp"
         android:layout_marginEnd="54dp"
         android:layout_marginBottom="39dp"
-        android:text="Resultado"
+        android:text="@string/text_label2"
         android:textAlignment="center"
         android:textSize="60sp"
         app:layout_constraintBottom_toTopOf="@+id/button3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textInputEditText"
-        tools:text="Resultado" />
+        tools:text="@string/text_label2" />
 
     <Button
         android:id="@+id/button4"
@@ -72,10 +72,11 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="50dp"
         android:layout_marginEnd="82dp"
-        android:text="/"
+        android:layout_marginBottom="224dp"
+        android:text="@string/button_label4"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/button2"
-        tools:layout_editor_absoluteY="459dp" />
+        app:layout_constraintStart_toEndOf="@+id/button2" />
 
     <Button
         android:id="@+id/button2"
@@ -83,10 +84,11 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="104dp"
         android:layout_marginEnd="49dp"
-        android:text="-"
+        android:layout_marginBottom="224dp"
+        android:text="@string/button_label2"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/button4"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="459dp" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/button3"
@@ -94,10 +96,11 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="49dp"
         android:layout_marginEnd="82dp"
-        android:text="*"
+        android:layout_marginBottom="32dp"
+        android:text="@string/button_label3"
+        app:layout_constraintBottom_toTopOf="@+id/button4"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/button"
-        tools:layout_editor_absoluteY="379dp" />
+        app:layout_constraintStart_toEndOf="@+id/button" />
 
     <Button
         android:id="@+id/button"
@@ -105,9 +108,10 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="104dp"
         android:layout_marginEnd="49dp"
-        android:text="+"
+        android:layout_marginBottom="32dp"
+        android:text="@string/button_label1"
+        app:layout_constraintBottom_toTopOf="@+id/button2"
         app:layout_constraintEnd_toStartOf="@+id/button3"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="379dp" />
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

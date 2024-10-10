@@ -20,4 +20,12 @@
     <string name="attachment_summary_on">Automatically download attachments for incoming emails
     </string>
     <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="text_label1">Minha Linda Calculadora</string>
+    <string name="text_field_label1">Number 1</string>
+    <string name="text_field_label2">Number 2</string>
+    <string name="text_label2">Resultado</string>
+    <string name="button_label4">/</string>
+    <string name="button_label2">-</string>
+    <string name="button_label3">*</string>
+    <string name="button_label1">+</string>
 </resources>
